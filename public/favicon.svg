@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0f1822"/>
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#fff">IP</text>
+  <circle cx="25" cy="7" r="2.5" fill="#ff7a18"/>
+</svg>
