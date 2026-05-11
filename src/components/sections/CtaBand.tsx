@@ -15,7 +15,7 @@ export function CtaBand() {
         >
           <div
             className="absolute inset-0 -z-10 bg-cover bg-center opacity-25"
-            style={{ backgroundImage: "url(/img/plant/15-Prensas-aceite.jpg)" }}
+            style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/plant/15-Prensas-aceite.jpg)` }}
             aria-hidden
           />
           <div

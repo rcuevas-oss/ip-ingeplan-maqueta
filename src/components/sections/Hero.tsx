@@ -23,7 +23,7 @@ export function Hero() {
     >
       <div
         className="absolute inset-0 -z-10 bg-cover bg-center opacity-25"
-        style={{ backgroundImage: "url(/img/plant/P5210172.jpg)" }}
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/plant/P5210172.jpg)` }}
         aria-hidden
       />
       <div

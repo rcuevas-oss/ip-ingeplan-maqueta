@@ -69,7 +69,7 @@ export function About() {
                 <div className="mt-4 flex items-start gap-4">
                   <div className="relative shrink-0">
                     <img
-                      src="/img/team/paulino.jpg"
+                      src={`${import.meta.env.BASE_URL}img/team/paulino.jpg`}
                       alt="Retrato referencial del fundador"
                       loading="lazy"
                       className="h-16 w-16 rounded-full object-cover ring-2 ring-white shadow-md"

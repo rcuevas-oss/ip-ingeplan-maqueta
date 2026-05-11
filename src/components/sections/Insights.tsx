@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Clock } from "lucide-react";
 
+const BASE = import.meta.env.BASE_URL;
+
 const posts = [
   {
-    img: "/img/plant/PB210009.jpg",
+    img: `${BASE}img/plant/PB210009.jpg`,
     tag: "Energía térmica",
     title: "Cinco fugas térmicas que toda planta tiene (y casi nadie mide)",
     excerpt:
@@ -12,7 +14,7 @@ const posts = [
     date: "Mar 2026",
   },
   {
-    img: "/img/plant/15-Prensas-aceite.jpg",
+    img: `${BASE}img/plant/15-Prensas-aceite.jpg`,
     tag: "Procesos",
     title: "Cuándo conviene cogenerar vapor a procesos (y cuándo no)",
     excerpt:
@@ -21,7 +23,7 @@ const posts = [
     date: "Feb 2026",
   },
   {
-    img: "/img/plant/P9270024.jpg",
+    img: `${BASE}img/plant/P9270024.jpg`,
     tag: "Operación",
     title: "Cuellos de botella: por qué tu planta rinde menos que su capacidad nominal",
     excerpt:

@@ -10,9 +10,11 @@ interface Project {
   span?: string;
 }
 
+const BASE = import.meta.env.BASE_URL;
+
 const projects: Project[] = [
   {
-    img: "/img/plant/15-Prensas-aceite.jpg",
+    img: `${BASE}img/plant/15-Prensas-aceite.jpg`,
     sector: "Aceites vegetales",
     title: "Optimización de prensas y filtrado",
     result: "+12% rendimiento de extracción",
@@ -20,7 +22,7 @@ const projects: Project[] = [
     span: "lg:col-span-7 lg:row-span-2",
   },
   {
-    img: "/img/plant/PB210009.jpg",
+    img: `${BASE}img/plant/PB210009.jpg`,
     sector: "Agroindustrial",
     title: "Generación de vapor + condensados",
     result: "−22% consumo de combustible",
@@ -28,7 +30,7 @@ const projects: Project[] = [
     span: "lg:col-span-5",
   },
   {
-    img: "/img/plant/P5210172.jpg",
+    img: `${BASE}img/plant/P5210172.jpg`,
     sector: "Alimentos",
     title: "Cogeneración con vapor a procesos",
     result: "Estudio de factibilidad técnico-económico",
@@ -36,7 +38,7 @@ const projects: Project[] = [
     span: "lg:col-span-5",
   },
   {
-    img: "/img/plant/P9270024.jpg",
+    img: `${BASE}img/plant/P9270024.jpg`,
     sector: "Lácteos",
     title: "Modificación de planta + ampliación",
     result: "+30% capacidad sin nueva línea",
@@ -44,7 +46,7 @@ const projects: Project[] = [
     span: "lg:col-span-6",
   },
   {
-    img: "/img/plant/18-Filtro-aceite.jpg",
+    img: `${BASE}img/plant/18-Filtro-aceite.jpg`,
     sector: "Procesos",
     title: "Eliminación de cuellos de botella",
     result: "Recirculaciones bajaron 40%",
